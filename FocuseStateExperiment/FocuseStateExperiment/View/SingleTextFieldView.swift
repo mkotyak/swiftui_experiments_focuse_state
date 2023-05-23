@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct UsernameFieldView: View {
+struct SingleTextFieldView: View {
     @FocusState private var isUsernameFocused: Bool
     @State private var username = ""
 

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct UsernameAndPasswordFieldsView: View {
+struct MultipleTextFieldsView: View {
     private enum FocusedField {
         case username
         case password

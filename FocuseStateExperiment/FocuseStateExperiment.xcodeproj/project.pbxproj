@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		73C007702A04F65F005EE5A8 /* FocuseStateExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C0076F2A04F65F005EE5A8 /* FocuseStateExperimentApp.swift */; };
-		73C007722A04F65F005EE5A8 /* UsernameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C007712A04F65F005EE5A8 /* UsernameFieldView.swift */; };
+		73C007722A04F65F005EE5A8 /* SingleTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C007712A04F65F005EE5A8 /* SingleTextFieldView.swift */; };
 		73C007742A04F660005EE5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C007732A04F660005EE5A8 /* Assets.xcassets */; };
 		73C007782A04F660005EE5A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C007772A04F660005EE5A8 /* Preview Assets.xcassets */; };
-		73C007802A04F713005EE5A8 /* UsernameAndPasswordFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C0077F2A04F713005EE5A8 /* UsernameAndPasswordFieldsView.swift */; };
+		73C007802A04F713005EE5A8 /* MultipleTextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C0077F2A04F713005EE5A8 /* MultipleTextFieldsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73C0076C2A04F65F005EE5A8 /* FocuseStateExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocuseStateExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C0076F2A04F65F005EE5A8 /* FocuseStateExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocuseStateExperimentApp.swift; sourceTree = "<group>"; };
-		73C007712A04F65F005EE5A8 /* UsernameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameFieldView.swift; sourceTree = "<group>"; };
+		73C007712A04F65F005EE5A8 /* SingleTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldView.swift; sourceTree = "<group>"; };
 		73C007732A04F660005EE5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C007752A04F660005EE5A8 /* FocuseStateExperiment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FocuseStateExperiment.entitlements; sourceTree = "<group>"; };
 		73C007772A04F660005EE5A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		73C0077F2A04F713005EE5A8 /* UsernameAndPasswordFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameAndPasswordFieldsView.swift; sourceTree = "<group>"; };
+		73C0077F2A04F713005EE5A8 /* MultipleTextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTextFieldsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 		73C0076E2A04F65F005EE5A8 /* FocuseStateExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				73C007732A04F660005EE5A8 /* Assets.xcassets */,
 				73C007752A04F660005EE5A8 /* FocuseStateExperiment.entitlements */,
 				73C0076F2A04F65F005EE5A8 /* FocuseStateExperimentApp.swift */,
-				73C007732A04F660005EE5A8 /* Assets.xcassets */,
 				73C007762A04F660005EE5A8 /* Preview Content */,
 				73C0077E2A04F6E5005EE5A8 /* View */,
 			);
@@ -74,8 +74,8 @@
 		73C0077E2A04F6E5005EE5A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				73C007712A04F65F005EE5A8 /* UsernameFieldView.swift */,
-				73C0077F2A04F713005EE5A8 /* UsernameAndPasswordFieldsView.swift */,
+				73C0077F2A04F713005EE5A8 /* MultipleTextFieldsView.swift */,
+				73C007712A04F65F005EE5A8 /* SingleTextFieldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C007722A04F65F005EE5A8 /* UsernameFieldView.swift in Sources */,
-				73C007802A04F713005EE5A8 /* UsernameAndPasswordFieldsView.swift in Sources */,
+				73C007722A04F65F005EE5A8 /* SingleTextFieldView.swift in Sources */,
+				73C007802A04F713005EE5A8 /* MultipleTextFieldsView.swift in Sources */,
 				73C007702A04F65F005EE5A8 /* FocuseStateExperimentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
